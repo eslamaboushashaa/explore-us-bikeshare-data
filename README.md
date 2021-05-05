@@ -27,7 +27,7 @@ In this project, Python is used to explore data related to bike share systems fo
     * End Station (e.g., Sedgwick St & North Ave)
     * User Type (Subscriber or Customer)
 
-  The Chicago and New York City files also have the following two columns:
+  ***The Chicago and New York City files also have the following two columns:***
 
     * >Gender
     * >Birth Year
