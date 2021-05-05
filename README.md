@@ -11,8 +11,8 @@ In this project, Python is used to explore data related to bike share systems fo
 * #### How the program works:
   The code developed takes in raw input to create an interactive experience in the terminal that answers questions about the dataset. The experience is interactive because depending on a user's input, the answers to the questions will change! There are four questions that will change the answers:
 
-     1- Would you like to see data for Chicago, New York, or Washington?
-     2- Would you like to filter the data by month, day, or not at all?
+     1. Would you like to see data for Chicago, New York, or Washington?
+     2. Would you like to filter the data by month, day, or not at all?
        (If they chose month) Which month - January, February, March, April, May, or June?
        (If they chose day) Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?
 
@@ -35,21 +35,21 @@ In this project, Python is used to explore data related to bike share systems fo
   The code helps user to tell about bike share use in Chicago, New York City and Washington by computing a variety of descriptive statistics. In this project, the code output will provide the following information:
 
     * Popular times of travel (i.e., occurs most often in the start time):
-        1- most common month
-        2- most common day of week
-        3- most common hour of day
+        1. most common month
+        2. most common day of week
+        3. most common hour of day
 
     * Popular stations and trip:
-        1- most common start station
-        2- most common end station
-        3- most common trip from start to end (i.e., most frequent combination of start station and end station)
+        1. most common start station
+        2. most common end station
+        3. most common trip from start to end (i.e., most frequent combination of start station and end station)
 
     * Trip duration:
-        1- total travel time
-        2- average travel time
+        1. total travel time
+        2. average travel time
 
     * User info:
-        1- counts of each user type
-        2- counts of each gender (only available for NYC and Chicago)
-        3- earliest, most recent, most common year of birth (only available for NYC and Chicago)
+        1. counts of each user type
+        2. counts of each gender (only available for NYC and Chicago)
+        3. earliest, most recent, most common year of birth (only available for NYC and Chicago)
     
