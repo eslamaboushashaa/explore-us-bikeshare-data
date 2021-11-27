@@ -16,28 +16,25 @@ def get_filters():
         if city.lower() in all_city: 
             print (" now, you will choise a month")
             break  
-        else :
-            print("--"*5)
-            print ("please, enter avaliable city")
-            print("--"*5)
+        print("--"*5)
+        print ("please, enter avaliable city")
+        print("--"*5)
     while True:        
         month = input("chooise the month that want more information about it ")
         if month.lower() in all_month:
             print (" now, you will choise a day ")
             break  
-        else :
-            print("--"*5)
-            print ("please, enter avaliable month")
-            print("--"*5)
+        print("--"*5)
+        print ("please, enter avaliable month")
+        print("--"*5)
     while True:     
         day   = input("chooise the day   that want more information about it ")  
         if day.title() in all_day: 
             print (" now, you finish the first step")
             break  
-        else :
-            print("--"*5)
-            print ("please, enter avaliable day ")
-            print("--"*5)
+        print("--"*5)
+        print ("please, enter avaliable day ")
+        print("--"*5)
     return(city, month , day)    
 def load_data(city, month, day):
     CITY_DATA = { 'chicago': 'chicago.csv',
@@ -171,9 +168,8 @@ def display_raw_data (city):
                 else :
                     break
             break
-        else :
-            print("thank\'s for you")
-            break
+        print("thank\'s for you")
+        break
 
 def main():
     while True:
